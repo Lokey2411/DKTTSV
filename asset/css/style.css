@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#header{
+    color:blue;
+    text-align: center;
+}
+
+#table{
+    border: 1px solid red;
+}
+
+#table .header{
+    position: relative;
+    left:1px;
+    right: 3px;
+    width:100%;
+    max-width: 1360px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    float:left;
+    line-height: 50px;
+}
+
+input,select{
+    width: 191px;
+    height: 35px;
+
+}
+
+.important{
+    color:red;
+}
+
+#table .heading{
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    width: 191px;
+    line-height:35px;
+    background-color: #d2ff8e;
+}
+
+#Object{
+    width: 386px;
+}
+
+.address,#class{
+    width: 581px;
+}
+
+#birth-letter,#specialized{
+    width: 776px;
+}
+
+#ssid-city,#education,#Courses{
+    width: 386px;
+}
+
+.max-width{
+    width: 100%!important;
+    max-width: 1361px;
+}
+
+.half-width{
+    width: 50%!important;
+}
+
+.phone-number{
+    width: 483px;
+}
+
+.center{
+    text-align: center!important;
+}

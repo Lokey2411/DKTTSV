@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<head>
+    <title>Lokey</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type = "image/jpg" href="asset/goat logo.jpg">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>PHIẾU ĐĂNG KÝ THÔNG TIN SINH VIÊN</h1>
+    <!-- </br> -->
+    <h1>......................</h1>
+    </div>
+    <div id="table">
+        <div class="header">
+            <h3>A. THÔNG TIN CÁ NHÂN</h3>
+        </div>
+        <span class="content">
+                <span class="heading">1. Họ và tên:<span class="important">*</span>
+                </span>
+                <input type="text" placeholder="Họ, tên đệm" id = "first-name">
+                <input type="text" placeholder="Tên">
+            </span>
+           <span class="content">
+                <span class="heading">2. Giới tính:<span class="important">*</span>
+                </span>
+               <span>
+                <select name="gender" id="gender">
+                    <option value="default">--Giới tính--</option>
+                    <option value="male">Nam</option>
+                    <option value="female">Nữ</option>
+                    <option value="other">Khác</option>
+                </select>
+                <span class="heading">Mã sinh viên:<span class="important">*</span>
+            </span>
+            <input type="text" name="msv" id="msv" placeholder="10 chữ số, bắt đầu =">
+               </span>
+    </span>
+   <span class="content line-2">
+        <span class="heading">3. Dân tộc:<span class="important">*</span>
+        </span>
+       <span>
+        <select name="ethnic" id="ethnic">
+            <option value="default">---Dân tộc--</option>
+            <option value="Kinh">Kinh</option>
+            <option value="Tày">Tày</option>
+            <option value="Thái">Thái</option>
+            <option value="Mường">Mường</option>
+            <option value="Khmer">Khmer</option>
+            <option value="Hoa">Hoa</option>
+            <option value="Nùng">Nùng</option>
+            <option value="H">H'Mông</option>
+            <option value="Dao">Dao</option>
+            <option value="Gia">Gia Rai</option>
+            <option value="Ê">Ê đê</option>
+            <option value="Ba">Ba Na</option>
+            <option value="Sán">Sán Chay</option>
+            <option value="Chăm">Chăm</option>
+            <option value="Kơ">Kơ Ho</option>
+            <option value="Xơ">Xơ Đăng</option>
+            <option value="Xán">Xán Dìu</option>
+            <option value="Sán">Sán Dìu</option>
+            <option value="Hrê">Hrê</option>
+            <option value="Ra">Ra Glai</option>
+            <option value="Mnông">Mnông</option>
+            <option value="Thổ">Thổ</option>
+            <option value="Khơ">Khơ mú</option>
+            <option value="Stiêng">Stiêng</option>
+            <option value="Bru">Bru - Vân Kiều</option>
+            <option value="Cơ">Cơ Tu</option>
+            <option value="Giáy">Giáy</option>
+            <option value="Tà">Tà Ôi</option>
+            <option value="Mạ">Mạ</option>
+            <option value="Giẻ">Giẻ-Triêng</option>
+            <option value="Co">Co</option>
+            <option value="Chơ">Chơ Ro</option>
+            <option value="Xinh">Xinh Mun</option>
+            <option value="Hà">Hà Nhì</option>
+            <option value="Chu">Chu Ru</option>
+            <option value="Lào">Lào</option>
+            <option value="La">La Chí</option>
+            <option value="Kháng">Kháng</option>
+            <option value="Phù">Phù Lá</option>
+            <option value="La">La Hủ</option>
+            <option value="La">La Ha</option>
+            <option value="Pà">Pà Thẻn</option>
+            <option value="Lự">Lự</option>
+            <option value="Ngái">Ngái</option>
+            <option value="Chứt">Chứt</option>
+            <option value="Lô">Lô Lô</option>
+            <option value="Mảng">Mảng</option>
+            <option value="Cơ">Cơ Lao</option>
+            <option value="Bố">Bố y</option>
+            <option value="Cống">Cống</option>
+            <option value="Si">Si La</option>
+            <option value="Pu">Pu Péo</option>
+            <option value="Rơ">Rơ Măm</option>
+            <option value="Brâu">Brâu</option>
+            <option value="Ơ">Ơ Đu</option>
+        </select>
+        <span class="heading">Tôn giáo:<span class="important">*</span>
+    </span>
+        <select name="religion" id="religion">
+            <option value="default">---Tôn giáo--</option>
+            <option value="Không">Không</option>
+            <option value="PG">Phật giáo</option>
+            <option value="CG">Công giáo</option>
+            <option value="TL">Tin lành</option>
+            <option value="PGHH">Phật giáo Hòa Hảo</option>
+            <option value="HG">Hồi giáo</option>
+            <option value="TGBI">Tôn giáo Baha’I</option>
+            <option value="TĐCSPH">Tịnh độ Cư sỹ Phật hội</option>
+            <option value="CĐPL">Cơ đốc Phục lâm</option>
+            <option value="PGTÂHN">Phật giáo Tứ Ân Hiếu nghĩa</option>
+            <option value="MSĐ">Minh Sư đạo</option>
+            <option value="MLĐ">Minh lý đạo – Tam Tông Miếu</option>
+            <option value="BLM">Bàlamôn giáo</option>
+            <option value="MM">Mặc môn</option>
+            <option value="PGHNTL">Phật giáo Hiếu Nghĩa Tà Lơn</option>
+            <option value="BSKH">Bửu Sơn Kỳ Hương.</option>
+        </select>
+    </span>
+    <span class="heading">Đối tượng chính sách:"
+    </span>
+    <select name="Object" id="Object">
+        <option value="default">---Đối tượng--</option>
+        <option value="no">Không</option>
+        <option value="DTTS">Người dân tộc thiểu số</option>
+        <option value="CDƯT">Công dân ưu tú</option>
+        <option value="TB">Thương binh</option>
+        <option value="CTB">Con thương binh, liệt sĩ</option>
+        <option value="QN">Quân nhân, công an nhân dân được cử đi học hoặc quân nhân, công an đã hoàn thành nghĩa vụ từ trên 24 tháng và nay đã xuất ngũ.</option>
+        <option value="HN">Hộ nghèo</option>
+        <option value="ĐBKK">Hộ đặc biệt khó khăn</option>
+    </select>
+            </span>
+        <br>
+           <span class="content">
+            <span class="heading">4. Ngày sinh:<span class="important">*</span>
+            </span>
+            <input type="date" name="birth" id="birth"0pj h>
+            <span class="heading">Bằng chữ:<span class="important">*</span>
+            </span>
+            <input type="text" name="birth" id="birth-letter" placeholder="Ngày hai tư tháng mười một năm hai không không ba">
+           <span class="content">
+            <span class="heading">5. HK thường trú:<span class="important">*</span>
+            </span>
+            <select name="city" class="city">
+                <option value="default">-----Tỉnh-----</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <select name="district" class="district">
+                <option value="default">-----Quận,Huyện</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <select name="guild" class="guild">
+                <option value="default">-------Phường, Xã---</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            </span>
+            <input type="text" name = "address" class = "address" placeholder="Địa chỉ">
+           <span class="content">
+            <span class="heading">6. Chỗ ở hiện nay:<span class="important">*</span>
+        </span>
+        <select name="city" class="city">
+            <option value="default">-----Tỉnh-----</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <select name="district" class="district">
+            <option value="default">-----Quận,Huyện</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <select name="guild" class="guild">
+            <option value="default">-------Phường, Xã---</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        </span>
+        <input type="text" name = "address" class = "address" placeholder="">
+            </span>
+           <span class="content">
+            <span class="heading">7. Số CMND/CCCD:<span class="important">*</span>
+        </span>
+        <input type="text" name="SSID" id="SSID">
+            </span>
+            <span class="heading">Ngày cấp:<span class="important">*</span>
+            </span>
+            <input type="date" name="SSID-date" id="SSID-date">
+            <span class="heading">Nơi cấp:<span class="important">*</span>
+            </span>
+            <select name="city" id="ssid-city">
+                <option value="default">Tỉnh cấp</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+           <span class="content">
+            <span class="heading">8. Nơi sinh:<span class="important">*</span>
+            </span>
+            <select name="city" id="birth-city">
+                <option value="default">---Nơi sinh-----</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <span class="heading">Cơ sở:<span class="important">*</span>
+            </span>
+            <select name="basis" id="basis">
+                <option value="default">---Cơ sở đào tạo</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <span class="heading">Chương trình ĐT:<span class="important">*</span>
+            </span>
+            <select name="education" id="education">
+                <option value="default">Chương trình đại trà</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+           <span class="content">
+            <span class="heading">Ngành đào tạo:<span class="important">*</span>
+        </span>
+        <select name="industry" id="industry">
+            <option value="default">---Ngành--</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <span class="heading">Chuyên ngành:<span class="important">*</span>
+    </span>
+    <select name="specialized" id="specialized">
+        <option value="default">-----Chọn chuyên ngành-----</option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+    </select>
+
+            </span>
+           <span class="content">
+            <span class="heading">Khoá:<span class="important">*</span>
+        </span>
+        <select name="Courses" id="Courses">
+            <option value="default">---Khoá--</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <span class="heading">Lớp:<span class="important">*</span>
+        </span>
+        <select name="class" id="class">
+            <option value="default"></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            </select>
+            </span>
+           <span class="content">
+            <span class="heading max-width">11. Điện thoại và email thường xuyên sử dụng:<span class="important">*</span>
+            </span>
+            </span>
+            <span>
+                <span class="half-width">
+                    <span class="heading center">a. Di động:<span class="important">*</span>
+                </span>
+                <input type="text" name="phone-number" class="phone-number" placeholder="Bắt đầu bằng số 0">
+                <span class="half-width">
+                    <span class="heading center">b. Cố định:<span class="important">*</span>
+                </span>
+                <input type="text" name="phone-number" class="phone-number" placeholder="">
+            </span>
+            </span>
+            </span>
+        </br>
+        <span class="half-width">
+            <span class="heading center">c. Email:<span class="important">*</span>
+        </span>
+        <input type="text" name="phone-number" class="phone-number" placeholder="">
+        <span class="half-width">
+            <span class="heading center">d. Email khác:<span class="important">*</span>
+        </span>
+        <input type="text" name="phone-number" class="phone-number" placeholder="">
+        
+            
+        </div>
+</body>
+</html>
